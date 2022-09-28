@@ -1,0 +1,77 @@
+
+.cart{
+    background-color: rgb(235, 225, 225);
+    margin: 0px 30px;
+    border-radius: 8px;
+}
+
+.self-info{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+.address{
+    font-weight: 400;
+}
+.self-info img{
+    width: 45px;
+    border-radius: 100%;
+}
+.cart-info p{
+    font-size: 18px;
+}
+.cart-info{
+    padding: 20px 50px;
+}
+
+.time-info{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr );
+    gap: 20px;
+    background-color: rgb(190, 184, 184);
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.time-info button{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 48%;
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+}
+
+
+.time-info button:hover{
+    background-color: chartreuse;
+}
+.details-text{
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.time-text{
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.activity-btn{
+    background-color:rgb(133, 184, 58);
+    border: none;
+    width: 100%;
+    /* padding: 5px; */
+    border-radius: 10px;
+  
+}
+.activity-btn:hover{
+    background-color: rgb(136, 222, 222);
+}
+.btn-para{
+    font-size: 18px;
+}

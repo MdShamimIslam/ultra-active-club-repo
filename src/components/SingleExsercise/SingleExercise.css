@@ -1,0 +1,31 @@
+
+
+.single-exercise{
+    margin: 20px 50px;
+}
+.singleEx{
+    border: 2px solid #ddd;
+    border-radius: 13px;
+    
+}
+
+.exercise-info{
+    margin: 10px 15px;
+
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    background-color: darkgray;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+.btn-text{
+    font-size: 16px;
+    font-weight: 200px;
+}
