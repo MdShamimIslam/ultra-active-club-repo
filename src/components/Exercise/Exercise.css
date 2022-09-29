@@ -14,8 +14,7 @@
 @media screen and (max-width: 600px) {
     .exercise{
         display: grid;
-        grid-template-columns: 1fr;
-        
+        grid-template-columns: 1fr;   
     }
     .single-exercise{
         display: grid;
