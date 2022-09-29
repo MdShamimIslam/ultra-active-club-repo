@@ -18,7 +18,6 @@ const Cart = (props) => {
     let time = 0;
     for(const singlePart of cart){
         time =parseInt(time + parseInt(singlePart.time));
-
     }
     
     return (
