@@ -22,7 +22,7 @@ const Cart = (props) => {
     
     return (
         <div className="cart-info">
-
+            
             <div className="self-info">
                 <img src={image} alt="" />
                 <h3>
@@ -30,6 +30,7 @@ const Cart = (props) => {
                     <small className="address">Sundarganj,Gaibandha</small>
                 </h3>
             </div>
+
            <p>My long time dream is to become a Web Developer.So I am now on way my to become a Web Developer.May Allah fulfills my dreams.</p>
            <p className="details-text">Add A Break</p>
            <div className="time-info">
