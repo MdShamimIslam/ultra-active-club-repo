@@ -16,8 +16,7 @@ const SingleExercise = (props) => {
                 <button onClick={()=>handleAddToCart(props.exercisePart)} className='btn'>
                     <p className="btn-text">Add To List</p>
                     </button>
-            </div>
-            
+            </div>     
         </div>
     );
 };
