@@ -24,7 +24,6 @@
 .cart-info{
     padding: 20px 50px;
 }
-
 .time-info{
     display:grid;
     grid-template-columns: repeat(5, 1fr );
