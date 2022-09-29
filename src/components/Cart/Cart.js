@@ -1,10 +1,20 @@
 
-import React from 'react';
+import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css';
 import image from '../../images/shamim.jpg'
 const Cart = (props) => {
-    const {cart}=props;
+    
+    const notify = () => toast("Congratulations!");
+    const {cart} = props;
+    
+        
+    const [breaks , setBreaks] = useState(0)
 
+    const handleBreak = (value) => {
+        setBreaks(value)
+    }
     let time = 0;
     for(const singlePart of cart){
         time =parseInt(time + parseInt(singlePart.time));
@@ -24,19 +34,20 @@ const Cart = (props) => {
            <p>My long time dream is to become a Web Developer.So I am now on way my to become a Web Developer.May Allah fulfills my dreams.</p>
            <p className="details-text">Add A Break</p>
            <div className="time-info">
-                <button>10s</button>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                <button onClick={()=> handleBreak(10)}>10s</button>
+                <button onClick={()=> handleBreak(20)}>20s</button>
+                <button onClick={()=> handleBreak(30)}>30s</button>
+                <button onClick={()=> handleBreak(40)}>40s</button>
+                <button onClick={()=> handleBreak(50)}>50s</button>
            </div>
            <div>
                 <p className="details-text">Exercise Details</p>
                 <p className="time-text">Exercise Time: {time}s</p>
-                <p className="time-text">Break Time:</p>
-                <button className="activity-btn">
+                <p className="time-text">Break Time: {breaks}s</p>
+                <button onClick={notify} className="activity-btn">
                         <p className="btn-para">Activity Completed</p>
                 </button>
+                <ToastContainer />
            </div>
         </div>
     );

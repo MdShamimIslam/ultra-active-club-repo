@@ -2,7 +2,7 @@
 .exercise{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    /* margin: 15px 40px; */
+    
 }
 
 .single-exercise{
@@ -10,3 +10,16 @@
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
 }
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 600px) {
+    .exercise{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .single-exercise{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+  }
