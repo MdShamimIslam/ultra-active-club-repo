@@ -2,8 +2,10 @@
 .header{
     display: flex;
     align-items: center;
+    margin-left: 55px;
 }
 
-.header h2{
-    margin-left: 70px;
+.header img{
+    width: 35px;
+    
 }

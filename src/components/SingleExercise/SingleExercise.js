@@ -3,6 +3,7 @@ import React from 'react';
 import './SingleExercise.css';
 
 const SingleExercise = (props) => {
+    const {handleAddToCart}=props;
     const {name,img,time}=props.exercisePart;
     return (
         <div>
@@ -10,10 +11,10 @@ const SingleExercise = (props) => {
                 <img src={img} alt="" />
                 <div className="exercise-info">
                     <h3> {name}</h3>
-                    <p>Time required: {time}</p>
+                    <p className="Time-text">Time required: {time}</p>
                 </div>
-                <button className='btn'>
-                    <p className="btn-text">Add</p>
+                <button onClick={()=>handleAddToCart(props.exercisePart)} className='btn'>
+                    <p className="btn-text">Add To List</p>
                     </button>
             </div>
             

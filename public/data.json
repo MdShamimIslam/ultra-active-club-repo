@@ -1,43 +1,43 @@
 [
     {
         "id" : 1 ,
-        "img" :"https://www.google.com/search?q=gym+images&rlz=1C1ONGR_enBD1009BD1009&oq=&aqs=chrome.1.35i39i362l8.139775318j0j15&sourceid=chrome&ie=UTF-8#imgrc=1IF6bIcBT7FnXM",
+        "img" :"https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg",
         "time" : "10s" ,
-        "name" : "Dumble"
+        "name" : "Dumbbell"
     },
 
     {
         "id" : 2 ,
-        "img" :"https://www.google.com/search?q=gym+images&rlz=1C1ONGR_enBD1009BD1009&oq=&aqs=chrome.1.35i39i362l8.139775318j0j15&sourceid=chrome&ie=UTF-8#imgrc=1IF6bIcBT7FnXM",
+        "img" :"https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839087_960_720.jpg",
         "time" : "15s" ,
-        "name" : "Kumble"
+        "name" : "Barbell"
     },
 
     {
         "id" : 3 ,
-        "img" :"https://www.google.com/search?q=gym+images&rlz=1C1ONGR_enBD1009BD1009&oq=&aqs=chrome.1.35i39i362l8.139775318j0j15&sourceid=chrome&ie=UTF-8#imgrc=1IF6bIcBT7FnXM",
+        "img" :"https://media.istockphoto.com/photos/caucasian-male-athlete-doing-kettlebell-plank-row-exercise-picture-id1191770056?k=20&m=1191770056&s=612x612&w=0&h=dDqgIkl_meT3LqmiYwmfZuklIkcgGPRRKLPHkgs4a8c=",
         "time" : "20s" ,
-        "name" : "Mumble"
+        "name" : "Kettlebel"
     },
 
     {
         "id" : 4 ,
-        "img" :"https://www.google.com/search?q=gym+images&rlz=1C1ONGR_enBD1009BD1009&oq=&aqs=chrome.1.35i39i362l8.139775318j0j15&sourceid=chrome&ie=UTF-8#imgrc=1IF6bIcBT7FnXM",
+        "img" :"https://media.istockphoto.com/photos/pull-ups-picture-id186080694?k=20&m=186080694&s=612x612&w=0&h=N6Xuy7B8CY9gdffSAhNR42TrFNpVuZVTD9YgZpx0hXA=",
         "time" : "25s" ,
-        "name" : "Sumble"
+        "name" : "Pull-Up Frame and Bar"
     },
 
     {
         "id" : 5 ,
-        "img" :"https://www.google.com/search?q=gym+images&rlz=1C1ONGR_enBD1009BD1009&oq=&aqs=chrome.1.35i39i362l8.139775318j0j15&sourceid=chrome&ie=UTF-8#imgrc=1IF6bIcBT7FnXM",
+        "img" :"https://media.istockphoto.com/photos/fit-man-doing-cardio-workout-in-gym-picture-id947319034?k=20&m=947319034&s=612x612&w=0&h=HZihvuD8E7WieG8AFzaS4ZRN3AdwLEjlXCLjpzzEUeI=",
         "time" : "30s" ,
-        "name" : "Pumble"
+        "name" : "Rowing Machine"
     },
 
     {
         "id" : 6 ,
-        "img" :"https://www.google.com/search?q=gym+images&rlz=1C1ONGR_enBD1009BD1009&oq=&aqs=chrome.1.35i39i362l8.139775318j0j15&sourceid=chrome&ie=UTF-8#imgrc=1IF6bIcBT7FnXM",
+        "img" :"https://media.istockphoto.com/photos/active-man-doing-workout-at-health-club-picture-id1255263866?k=20&m=1255263866&s=612x612&w=0&h=kqPPWc-XujJ-0ZpljcpH30bJtWwfqk0_I3AWLVGIQ_U=",
         "time" : "35s" ,
-        "name" : "Fumble"
+        "name" : "Fitness Ball"
     }
 ]

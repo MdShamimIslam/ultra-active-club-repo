@@ -2,9 +2,17 @@
 import React from 'react';
 import './Cart.css';
 import image from '../../images/shamim.jpg'
-const Cart = () => {
+const Cart = (props) => {
+    const {cart}=props;
+
+    let time = 0;
+    for(const singlePart of cart){
+        time =parseInt(time + parseInt(singlePart.time));
+
+    }
+    
     return (
-        <div className='cart-info'>
+        <div className="cart-info">
 
             <div className="self-info">
                 <img src={image} alt="" />
@@ -24,8 +32,8 @@ const Cart = () => {
            </div>
            <div>
                 <p className="details-text">Exercise Details</p>
-                <p className="time-text">Exercise Time</p>
-                <p className="time-text">Break Time</p>
+                <p className="time-text">Exercise Time: {time}s</p>
+                <p className="time-text">Break Time:</p>
                 <button className="activity-btn">
                         <p className="btn-para">Activity Completed</p>
                 </button>
